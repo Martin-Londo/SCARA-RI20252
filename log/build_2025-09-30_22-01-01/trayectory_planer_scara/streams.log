@@ -1,0 +1,20 @@
+[0.433s] Invoking command in '/home/martin/SCARA-RI20252/src': PYTHONPATH=/home/martin/SCARA-RI20252/build/trayectory_planer_scara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/trayectory_planer_scara build --build-base /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build install --record /home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log --single-version-externally-managed install_data
+[0.590s] running egg_info
+[0.591s] writing ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/PKG-INFO
+[0.591s] writing dependency_links to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/dependency_links.txt
+[0.591s] writing entry points to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/entry_points.txt
+[0.591s] writing requirements to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/requires.txt
+[0.591s] writing top-level names to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/top_level.txt
+[0.593s] reading manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+[0.594s] running build
+[0.594s] running build_py
+[0.594s] running install
+[0.594s] running install_lib
+[0.596s] running install_data
+[0.596s] running install_egg_info
+[0.597s] removing '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara-0.0.0-py3.10.egg-info' (and everything under it)
+[0.597s] Copying ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info to /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara-0.0.0-py3.10.egg-info
+[0.597s] running install_scripts
+[0.611s] writing list of installed files to '/home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log'
+[0.630s] Invoked command in '/home/martin/SCARA-RI20252/src' returned '0': PYTHONPATH=/home/martin/SCARA-RI20252/build/trayectory_planer_scara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/trayectory_planer_scara build --build-base /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build install --record /home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log --single-version-externally-managed install_data

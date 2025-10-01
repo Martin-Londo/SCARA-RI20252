@@ -1,0 +1,18 @@
+running egg_info
+writing ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/PKG-INFO
+writing dependency_links to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/dependency_links.txt
+writing entry points to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/entry_points.txt
+writing requirements to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/requires.txt
+writing top-level names to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/top_level.txt
+reading manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+writing manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info to /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log'
