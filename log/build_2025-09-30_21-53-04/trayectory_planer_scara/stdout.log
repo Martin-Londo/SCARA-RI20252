@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info
+writing ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/PKG-INFO
+writing dependency_links to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/dependency_links.txt
+writing entry points to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/entry_points.txt
+writing requirements to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/requires.txt
+writing top-level names to ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/top_level.txt
+writing manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+reading manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+writing manifest file '../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build
+creating /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build/lib
+creating /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build/lib/trayectory_planer_scara
+copying trayectory_planer_scara/__init__.py -> /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build/lib/trayectory_planer_scara
+running install
+running install_lib
+creating /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara
+copying /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build/lib/trayectory_planer_scara/__init__.py -> /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara
+byte-compiling /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/ament_index
+creating /home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/ament_index/resource_index
+creating /home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/ament_index/resource_index/packages
+copying resource/trayectory_planer_scara -> /home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/ament_index/resource_index/packages
+copying package.xml -> /home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara
+running install_egg_info
+Copying ../build/trayectory_planer_scara/trayectory_planer_scara.egg-info to /home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages/trayectory_planer_scara-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log'

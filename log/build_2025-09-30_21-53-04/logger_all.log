@@ -1,0 +1,115 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.222s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ae325a65000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae325a643a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae325a643a0>>, mixin_verb=('build',))
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.508s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/martin/SCARA-RI20252'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(trayectory_planer_scara) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'trayectory_planer_scara' with type 'ros.ament_python' and name 'trayectory_planer_scara'
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.575s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/martin/ros2_ws_2502/install
+[0.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'trayectory_planer_scara' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'trayectory_planer_scara' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/martin/SCARA-RI20252/build/trayectory_planer_scara', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/martin/SCARA-RI20252/install/trayectory_planer_scara', 'merge_install': False, 'path': '/home/martin/SCARA-RI20252/trayectory_planer_scara', 'symlink_install': False, 'test_result_base': None}
+[0.657s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.658s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.658s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/martin/SCARA-RI20252/trayectory_planer_scara' with build type 'ament_python'
+[0.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('trayectory_planer_scara', 'ament_prefix_path')
+[0.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/ament_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/ament_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/ament_prefix_path.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.848s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/martin/SCARA-RI20252/trayectory_planer_scara'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/martin/SCARA-RI20252/trayectory_planer_scara': PYTHONPATH=/home/martin/SCARA-RI20252/build/trayectory_planer_scara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/trayectory_planer_scara build --build-base /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build install --record /home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log --single-version-externally-managed install_data
+[1.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/martin/SCARA-RI20252/trayectory_planer_scara' returned '0': PYTHONPATH=/home/martin/SCARA-RI20252/build/trayectory_planer_scara/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/trayectory_planer_scara build --build-base /home/martin/SCARA-RI20252/build/trayectory_planer_scara/build install --record /home/martin/SCARA-RI20252/build/trayectory_planer_scara/install.log --single-version-externally-managed install_data
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara' for CMake module files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/bin'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/pkgconfig/trayectory_planer_scara.pc'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/lib/python3.10/site-packages'
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('trayectory_planer_scara', 'pythonpath')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/pythonpath.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/pythonpath.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/hook/pythonpath.sh'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/bin'
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trayectory_planer_scara)
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/package.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/package.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/package.sh'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/package.bash'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/trayectory_planer_scara/package.zsh'
+[1.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/martin/SCARA-RI20252/install/trayectory_planer_scara/share/colcon-core/packages/trayectory_planer_scara)
+[1.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.482s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.513s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.513s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/martin/SCARA-RI20252/install/local_setup.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/martin/SCARA-RI20252/install/_local_setup_util_ps1.py'
+[1.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/martin/SCARA-RI20252/install/setup.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/martin/SCARA-RI20252/install/local_setup.sh'
+[1.519s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/martin/SCARA-RI20252/install/_local_setup_util_sh.py'
+[1.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/martin/SCARA-RI20252/install/setup.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/martin/SCARA-RI20252/install/local_setup.bash'
+[1.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/martin/SCARA-RI20252/install/setup.bash'
+[1.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/martin/SCARA-RI20252/install/local_setup.zsh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/martin/SCARA-RI20252/install/setup.zsh'

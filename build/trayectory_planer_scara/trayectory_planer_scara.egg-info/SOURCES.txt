@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/PKG-INFO
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/SOURCES.txt
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/dependency_links.txt
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/entry_points.txt
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/requires.txt
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/top_level.txt
+../build/trayectory_planer_scara/trayectory_planer_scara.egg-info/zip-safe
+resource/trayectory_planer_scara
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+trayectory_planer_scara/__init__.py
