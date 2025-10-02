@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob
+import os
 
 package_name = 'trayectory_planer_scara'
 
@@ -20,6 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            # terminal_name = pkg_name.node_FILE_name
+            'trayectory_planer_node = trayectory_planer_scara.trayectory_planner_node:main',
         ],
     },
 )
